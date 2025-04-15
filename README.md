@@ -6,7 +6,7 @@
 如果您想要基于这个仓库来个性化您的网站，只需要把这个仓库克隆，并参考[官方文档](https://kira.host/hexo/)修改_config.kira.yml和_config.yml即可
 
 ### 注意
-1. 如果你打算使用gulp来加快渲染速度，可以在package.json添加下述代码
+1. 如果你打算使用gulp来加快渲染速度，可以在package.json添加下述代码（你在本地测试时需要确保有安装相关的插件来执行gulp，github：action的linux环境以及配置过了，这个不用担心）
   ```json
 	"devDependencies": {
 	  "gulp": "^4.0.2",
